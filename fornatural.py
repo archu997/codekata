@@ -1,5 +1,5 @@
-a=int(input("No Of Natural Numbers including zero"))
-sum=0
-for i in range(a):
-    sum=sum+i
-print sum
+n=int(input("No Of Natural Numbers excluding zero"))
+count=0
+for s in range(1,n+1):
+    count=count+s
+print count

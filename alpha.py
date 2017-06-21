@@ -1,4 +1,4 @@
-s=input("Enter a character")
+s=raw_input("Enter a character")
 if s.isalpha()==True:
 	print (s+":Alpha")
 else:
